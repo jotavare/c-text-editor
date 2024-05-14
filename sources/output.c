@@ -1,4 +1,4 @@
-#include "../includes/text_editor.h"
+#include "../includes/library.h"
 
 /*
  * Draw the rows of the text editor;
@@ -10,6 +10,7 @@ void editorDrawRows(struct appendBuffer *ab)
     int y;
     for (y = 0; y < G.screenrows; y++)
     {
+        abAppend(ab, "\x1b[K", 3);
         abAppend(ab, "~", 1);
         if (y < G.screenrows - 1)
         {
@@ -19,25 +20,20 @@ void editorDrawRows(struct appendBuffer *ab)
 }
 
 /*
- * Escape character = 27 = '\\x1b';
- * 'J' = Erase in display;
- * Other examples:
- * - '<esc>[1J' = clear the screen up to where the cursor is;
- * - '<esc>[0J' || '<esc>[J' = clear the screen from the cursor up to the end of the screen;
- * - '<esc>[H' || <esc>[1;1H = position the cursor at the first row and first column;
- * Search for VT100 escape sequences;
+ * Description: search for VT100 escape sequences;
  * Clear the screen and redraw the rows;
  * Position the cursor at the top left corner again;
  */
 void editorRefreshScreen()
 {
     struct appendBuffer ab = BUFF_INIT;
-    abAppend(&ab, "\x1b[2J", 4);
+    abAppend(&ab, "\x1b[?25l", 6);
     abAppend(&ab, "\x1b[H", 3);
 
     editorDrawRows(&ab);
 
     abAppend(&ab, "\x1b[H", 3);
+    abAppend(&ab, "\x1b[?25h", 6);
 
     write(STDOUT_FILENO, ab.b, ab.len);
     abFree(&ab);

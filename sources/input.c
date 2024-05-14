@@ -1,4 +1,4 @@
-#include "../includes/text_editor.h"
+#include "../includes/library.h"
 
 /*
  * Wait for a keypress and handle it;

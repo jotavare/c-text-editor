@@ -1,4 +1,4 @@
-#include "../includes/text_editor.h"
+#include "../includes/library.h"
 
 /*
  * Get the size of the terminal window;
