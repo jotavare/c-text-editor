@@ -1,4 +1,4 @@
-NAME = text_editor
+NAME = vimwannabe
 CC = cc
 CFLAGS = -Wall -Wextra -Werror -pedantic -std=c99
 RM = rm -f

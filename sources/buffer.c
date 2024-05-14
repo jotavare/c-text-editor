@@ -5,8 +5,8 @@
  * If the buffer is full, reallocate memory;
  * Copy the string to the buffer;
  * Update the length of the buffer;
- * 
-*/
+ *
+ */
 void abAppend(struct appendBuffer *ab, const char *s, int len)
 {
     char *new = realloc(ab->b, ab->len + len);

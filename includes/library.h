@@ -10,34 +10,25 @@
 #include <sys/ioctl.h>
 #include <termios.h>
 #include <unistd.h>
+#include "data.h"
 
 /* DEFINES */
 #define CTRL_KEY(k) ((k) & 0x1f)
 #define BUFF_INIT {NULL, 0}
+#define VIMWANNABE_VERSION "0.0.1"
 
-/* DATA */
-struct editorConfig
-{
-    int screenrows;
-    int screencols;
-    struct termios original_termios;
+enum editorKey {
+  ARROW_LEFT = 1000,
+  ARROW_RIGHT,
+  ARROW_UP,
+  ARROW_DOWN,
 };
-
-extern struct editorConfig G;
-
-struct appendBuffer
-{
-    char *b;
-    int len;
-};
-
-/* FUNCTIONS */
 
 // TERMINAL
 void die(const char *s);
 void disableRawMode();
 void enableRawMode();
-char editorReadKey();
+int editorReadKey();
 int getWindowSize(int *rows, int *cols);
 
 // BUFFER
