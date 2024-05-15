@@ -1,8 +1,8 @@
 ## ABOUT
 
-This lightweight text editor (I call it Vim Wannabe) is built in `C` with less than
-**1000 lines of code**, it stands independently of external libraries, leveraging
-standard **VT100** escape sequences. Based on the references available below.
+This lightweight text editor (Vim Wannabe) is built in `C` with less than
+**1000 lines of code**, it stands independently of external libraries, utilizing
+standard **VT100** escape sequences.
 
 ## REQUIREMENTS
 
@@ -36,5 +36,5 @@ This project is a derivative work created from scratch, inspired by the
 Sanfilippo ([antirez](https://github.com/antirez)).
 
 It is licensed under the
-[BSD 2-Clause License](https://github.com/jotavare/text-editor-in-c/blob/main/LICENSE),
-included within this repository.
+[BSD 2-Clause License](https://github.com/jotavare/text-editor-in-c/blob/main/LICENSE)
+by Salvatore Sanfilippo, included within this repository.
