@@ -8,15 +8,19 @@
 void editorDrawRows(struct appendBuffer *ab)
 {
     int y;
+
     for (y = 0; y < G.screenrows; y++)
     {
         if (y == G.screenrows / 3)
         {
             char welcome[80];
             int welcomelen = snprintf(welcome, sizeof(welcome), "Vim Wannabe -- version %s", VIMWANNABE_VERSION);
+
             if (welcomelen > G.screencols)
                 welcomelen = G.screencols;
+
             int padding = (G.screencols - welcomelen) / 2;
+
             if (padding)
             {
                 abAppend(ab, "~", 1);
@@ -27,21 +31,17 @@ void editorDrawRows(struct appendBuffer *ab)
             abAppend(ab, welcome, welcomelen);
         }
         else
-        {
             abAppend(ab, "~", 1);
-        }
         abAppend(ab, "\x1b[K", 3);
         if (y < G.screenrows - 1)
-        {
             abAppend(ab, "\r\n", 2);
-        }
     }
 }
 
 /*
- * Description: search for VT100 escape sequences;
+ * For description, search for VT100 escape sequences;
  * Clear the screen and redraw the rows;
- * Position the cursor at the top left corner again;
+ * Position the cursor at the middle;
  */
 void editorRefreshScreen()
 {

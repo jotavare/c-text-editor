@@ -5,7 +5,7 @@
 #define VIMWANNABE_VERSION "0.0.1"
 
 /*
- * Assign large int values so that they don't conflict with ASCII values
+ * Assigned large int values so that they don't conflict with ASCII values
 */
 enum editorKey {
     ARROW_LEFT = 1000,

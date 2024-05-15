@@ -1,8 +1,8 @@
 #include "../includes/library.h"
 
 /*
- * Get the size of the terminal window;
- * If it fails, exit;
+ * Get the size of the terminal window and initialize cursor position;
+ * If the terminal window size cannot be obtained, exit;
  */
 void initEditor()
 {

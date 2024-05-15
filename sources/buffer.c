@@ -1,11 +1,8 @@
 #include "../includes/library.h"
 
 /*
- * Append a string to the buffer;
- * If the buffer is full, reallocate memory;
- * Copy the string to the buffer;
- * Update the length of the buffer;
- *
+ * Append a string to the buffer, if the buffer is full, reallocate memory;
+ * Copy the string to the buffer and update the length of the buffer;
  */
 void abAppend(struct appendBuffer *ab, const char *s, int len)
 {
