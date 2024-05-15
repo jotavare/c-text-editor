@@ -12,18 +12,6 @@
 #include <unistd.h>
 #include "data.h"
 
-/* DEFINES */
-#define CTRL_KEY(k) ((k) & 0x1f)
-#define BUFF_INIT {NULL, 0}
-#define VIMWANNABE_VERSION "0.0.1"
-
-enum editorKey {
-  ARROW_LEFT = 1000,
-  ARROW_RIGHT,
-  ARROW_UP,
-  ARROW_DOWN,
-};
-
 // TERMINAL
 void die(const char *s);
 void disableRawMode();
@@ -40,6 +28,7 @@ void editorDrawRows();
 void editorRefreshScreen();
 
 // INPUT
+void editorMoveCursor(int key);
 void editorProcessKeypress();
 
 // INIT
