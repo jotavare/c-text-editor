@@ -1,6 +1,6 @@
 ## ABOUT
 
-This lightweight text editor (called Vim Wannabe) is built in `C` with less than
+This lightweight text editor (I call it Vim Wannabe) is built in `C` with less than
 **1000 LOC**, it stands independently of external libraries, leveraging
 standard **VT100** escape sequences.
 
