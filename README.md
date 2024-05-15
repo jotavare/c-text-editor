@@ -11,8 +11,8 @@ standard **VT100** escape sequences.
 
 ## REFERENCES
 
-| Topic                  | Link                                                | Source             |
-|------------------------|-----------------------------------------------------|--------------------|
+| Topic | Link | Source |
+|:------|------|:-------|
 | Kilo Original          | [https://github.com/antirez/kilo](https://github.com/antirez/kilo) | GitHub |
 | Kilo Guide             | [https://viewsourcecode.org/snaptoken/kilo/index.html](https://viewsourcecode.org/snaptoken/kilo/index.html) | Website |
 | C99                    | [https://en.wikipedia.org/wiki/C99](https://en.wikipedia.org/wiki/C99) | Wikipedia |
