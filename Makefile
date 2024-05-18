@@ -10,6 +10,7 @@ SRCS =	sources/main.c \
 		sources/input.c \
 		sources/init.c \
 		sources/file.c \
+		sources/row_operations.c \
 
 OBJS = $(SRCS:.c=.o)
 

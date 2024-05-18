@@ -11,6 +11,8 @@ int main(int argc, char **argv)
         editorOpen(argv[1]);
     }
 
+      editorSetStatusMessage("HELP: Ctrl-Q = quit");
+
     while (1)
     {
         editorRefreshScreen();
