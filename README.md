@@ -1,6 +1,6 @@
 ## ABOUT
 
-This text editor (vim wannabe) was built in `C` with less than **1000 LOC**, it doesn't need external libraries and utilizes standard **VT100** escape sequences. The guide I followed, along with future implementation ideas, are available in the below.
+This text editor (vim wannabe) was built in `C` with less than **1000 LOC**, it doesn't need external libraries and utilizes standard **VT100** escape sequences. The guide I followed, along with future implementation ideas, are available below.
 
 ## REQUIREMENTS
 
