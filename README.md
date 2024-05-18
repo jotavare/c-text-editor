@@ -28,6 +28,20 @@ This lightweight text editor (Vim Wannabe) is built in `C` with less than **1000
 | [Unix Time](https://en.wikipedia.org/wiki/Unix_time)                                                     | Wikipedia |
 | [Variadic Functions](https://en.wikipedia.org/wiki/Variadic_function)                                    | Wikipedia |
 
+## IDEAS
+
+- [ ] More filetypes;
+- [ ] Line numbers;
+- [ ] Soft indent;
+- [ ] Auto indent;
+- [ ] Hard-wrap lines;
+- [ ] Soft-wrap lines;
+- [ ] Use ncurses;
+- [ ] Config file;
+- [ ] Modal editing;
+- [ ] Multiple buffers.
+
+
 ## LICENSE
 
 This project is a derivative work created from scratch, inspired by the [original guide](https://viewsourcecode.org/snaptoken/kilo/) authored by [snaptoken](https://github.com/snaptoken) and the [original project](https://github.com/antirez/kilo) developed by Salvatore Sanfilippo ([antirez](https://github.com/antirez)).
