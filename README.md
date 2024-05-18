@@ -16,6 +16,7 @@ This lightweight text editor (Vim Wannabe) is built in `C` with less than **1000
 | [Vim](https://www.vim.org/)                                                                              | Website   |
 | [C99](https://en.wikipedia.org/wiki/C99)                                                                 | Wikipedia |
 | [ANSI C](https://en.wikipedia.org/wiki/ANSI_C)                                                           | Wikipedia |
+| [ANSI Escape Code](https://en.wikipedia.org/wiki/ANSI_escape_code)                                       | Wikipedia |
 | [Bit Field](https://en.wikipedia.org/wiki/Bit_field)                                                     | Wikipedia |
 | [ASCII Table](https://www.asciitable.com/)                                                               | Website   |
 | [Software Flow Control](https://en.wikipedia.org/wiki/Software_flow_control)                             | Wikipedia |
@@ -24,7 +25,7 @@ This lightweight text editor (Vim Wannabe) is built in `C` with less than **1000
 | [VT100 User Guide](https://vt100.net/docs/vt100-ug/chapter3.html#ED)                                     | Website   |
 | [Ncurses](https://en.wikipedia.org/wiki/Ncurses)                                                         | Wikipedia |
 | [Terminfo](https://en.wikipedia.org/wiki/Terminfo)                                                       | Wikipedia |
-| [GNU - Feature Test Macros](https://www.gnu.org/software/libc/manual/html_node/Feature-Test-Macros.html) | Website   |
+| [GNU Feature Test Macros](https://www.gnu.org/software/libc/manual/html_node/Feature-Test-Macros.html) | Website   |
 | [Unix Time](https://en.wikipedia.org/wiki/Unix_time)                                                     | Wikipedia |
 | [Variadic Functions](https://en.wikipedia.org/wiki/Variadic_function)                                    | Wikipedia |
 
