@@ -9,6 +9,7 @@ SRCS =	sources/main.c \
 		sources/output.c \
 		sources/input.c \
 		sources/init.c \
+		sources/file.c \
 
 OBJS = $(SRCS:.c=.o)
 

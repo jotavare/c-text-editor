@@ -6,8 +6,9 @@
 
 /*
  * Assigned large int values so that they don't conflict with ASCII values
-*/
-enum editorKey {
+ */
+enum editorKey
+{
     ARROW_LEFT = 1000,
     ARROW_RIGHT,
     ARROW_UP,
@@ -19,11 +20,22 @@ enum editorKey {
     DEL_KEY,
 };
 
+/*
+ * Data types to store the rows of the text editor;
+ */
+typedef struct erow
+{
+    int size;
+    char *chars;
+} erow;
+
 struct editorConfig
 {
     int cx, cy;
     int screenrows;
     int screencols;
+    int numrows;
+    erow row;
     struct termios original_termios;
 };
 
