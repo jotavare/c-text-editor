@@ -1,8 +1,8 @@
 #include "../includes/library.h"
 
-struct editorConfig G;
+struct editorConfig E;
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
     enableRawMode();
     initEditor();
@@ -11,7 +11,8 @@ int main(int argc, char **argv)
         editorOpen(argv[1]);
     }
 
-      editorSetStatusMessage("HELP: Ctrl-Q = quit");
+    editorSetStatusMessage(
+        "HELP: Ctrl-S = save | Ctrl-Q = quit | Ctrl-F = find");
 
     while (1)
     {
