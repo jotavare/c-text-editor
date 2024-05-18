@@ -29,7 +29,7 @@ This text editor (vim wannabe) was built in `C` with less than **1000 LOC**, it 
 | [Unix Time](https://en.wikipedia.org/wiki/Unix_time)                                                     | Wikipedia |
 | [Variadic Functions](https://en.wikipedia.org/wiki/Variadic_function)                                    | Wikipedia |
 
-## IDEAS
+## FUTURE IDEAS
 
 - [ ] More filetypes;
 - [ ] Line numbers;
