@@ -1,6 +1,6 @@
 ## ABOUT
 
-This lightweight text editor (Vim Wannabe) is built in `C` with less than **1000 lines of code**, it stands independently of external libraries, utilizing standard **VT100** escape sequences.
+This text editor (vim wannabe) was built in `C` with less than **1000 LOC**, it doesn't need external libraries and utilizes standard **VT100** escape sequences. The guide that I followed is available in the references section.
 
 ## REQUIREMENTS
 
