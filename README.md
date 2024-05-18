@@ -40,7 +40,7 @@ This text editor (vim wannabe) was built in `C` with less than **1000 LOC**, it 
 - [ ] Use ncurses;
 - [ ] Config file;
 - [ ] Modal editing;
-- [ ] Multiple buffers.
+- [ ] Multiple buffers;
 
 
 ## LICENSE
