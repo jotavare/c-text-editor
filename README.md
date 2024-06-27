@@ -1,6 +1,6 @@
 ## ABOUT
 
-This text editor (vim wannabe) was built in `C` with less than **1000 LOC**, it doesn't need external libraries and utilizes standard **VT100** escape sequences. The guide I followed, along with future implementation ideas, are available below.
+This text editor (vim wannabe) was built in `C` in roughly **1200 lines of code**, needs no external libraries, and drives the terminal with standard **VT100** escape sequences. The guide I followed, along with ideas it does not implement, are listed below.
 
 ## REQUIREMENTS
 
@@ -50,4 +50,4 @@ If you find any issues or have suggestions for improvements, feel free to fork t
 
 This project is a derivative work created from scratch, inspired by the [original guide](https://viewsourcecode.org/snaptoken/kilo/) authored by [snaptoken](https://github.com/snaptoken) and the [original project](https://github.com/antirez/kilo) developed by Salvatore Sanfilippo ([antirez](https://github.com/antirez)).
 
-It is licensed under the [BSD 2-Clause License](https://github.com/jotavare/text-editor-in-c/blob/main/LICENSE) by Salvatore Sanfilippo, included within this repository.
+It is licensed under the [BSD 2-Clause License](https://github.com/jotavare/c-text-editor/blob/main/LICENSE) by Salvatore Sanfilippo, included within this repository.
