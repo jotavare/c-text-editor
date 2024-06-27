@@ -30,7 +30,15 @@ void editorOpen(char *filename)
 
     FILE *fp = fopen(filename, "r");
     if (!fp)
+    {
+        /* a missing file is a new one: start empty and let save create it */
+        if (errno == ENOENT)
+        {
+            E.dirty = 0;
+            return;
+        }
         die("fopen");
+    }
 
     char *line = NULL;
     size_t linecap = 0;
