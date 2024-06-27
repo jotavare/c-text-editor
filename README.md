@@ -1,6 +1,6 @@
 ## ABOUT
 
-This lightweight text editor (Vim Wannabe) is built in `C` with less than **1000 lines of code**, it stands independently of external libraries, utilizing standard **VT100** escape sequences.
+This text editor (vim wannabe) was built in `C` with less than **1000 LOC**, it doesn't need external libraries and utilizes standard **VT100** escape sequences. The guide I followed, along with future implementation ideas, are available below.
 
 ## REQUIREMENTS
 
@@ -16,6 +16,7 @@ This lightweight text editor (Vim Wannabe) is built in `C` with less than **1000
 | [Vim](https://www.vim.org/)                                                                              | Website   |
 | [C99](https://en.wikipedia.org/wiki/C99)                                                                 | Wikipedia |
 | [ANSI C](https://en.wikipedia.org/wiki/ANSI_C)                                                           | Wikipedia |
+| [ANSI Escape Code](https://en.wikipedia.org/wiki/ANSI_escape_code)                                       | Wikipedia |
 | [Bit Field](https://en.wikipedia.org/wiki/Bit_field)                                                     | Wikipedia |
 | [ASCII Table](https://www.asciitable.com/)                                                               | Website   |
 | [Software Flow Control](https://en.wikipedia.org/wiki/Software_flow_control)                             | Wikipedia |
@@ -24,11 +25,11 @@ This lightweight text editor (Vim Wannabe) is built in `C` with less than **1000
 | [VT100 User Guide](https://vt100.net/docs/vt100-ug/chapter3.html#ED)                                     | Website   |
 | [Ncurses](https://en.wikipedia.org/wiki/Ncurses)                                                         | Wikipedia |
 | [Terminfo](https://en.wikipedia.org/wiki/Terminfo)                                                       | Wikipedia |
-| [GNU - Feature Test Macros](https://www.gnu.org/software/libc/manual/html_node/Feature-Test-Macros.html) | Website   |
+| [GNU Feature Test Macros](https://www.gnu.org/software/libc/manual/html_node/Feature-Test-Macros.html) | Website   |
 | [Unix Time](https://en.wikipedia.org/wiki/Unix_time)                                                     | Wikipedia |
 | [Variadic Functions](https://en.wikipedia.org/wiki/Variadic_function)                                    | Wikipedia |
 
-## IDEAS
+## FUTURE IDEAS
 
 - [ ] More filetypes;
 - [ ] Line numbers;
@@ -39,8 +40,11 @@ This lightweight text editor (Vim Wannabe) is built in `C` with less than **1000
 - [ ] Use ncurses;
 - [ ] Config file;
 - [ ] Modal editing;
-- [ ] Multiple buffers.
+- [ ] Multiple buffers;
 
+## CONTRIBUTING
+
+If you find any issues or have suggestions for improvements, feel free to fork the repository and open an issue or submit a pull request.
 
 ## LICENSE
 
