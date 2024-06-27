@@ -42,6 +42,9 @@ This text editor (vim wannabe) was built in `C` with less than **1000 LOC**, it 
 - [ ] Modal editing;
 - [ ] Multiple buffers;
 
+## CONTRIBUTING
+
+If you find any issues or have suggestions for improvements, feel free to fork the repository and open an issue or submit a pull request.
 
 ## LICENSE
 
