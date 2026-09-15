@@ -1,3 +1,19 @@
+<p align="center">
+	<img src="https://img.shields.io/badge/status-finished-success?color=%2312bab9&style=flat-square"/>
+	<img src="https://img.shields.io/github/languages/top/jotavare/c-text-editor?color=%2312bab9&style=flat-square"/>
+	<img src="https://img.shields.io/github/last-commit/jotavare/c-text-editor?color=%2312bab9&style=flat-square"/>
+	<a href='https://www.linkedin.com/in/jotavare' target="_blank"><img alt='Linkedin' src='https://img.shields.io/badge/LinkedIn-blue?style=flat-square'/></a>
+</p>
+
+<p align="center">
+	<a href="#about">About</a> •
+	<a href="#requirements">Requirements</a> •
+	<a href="#references">References</a> •
+	<a href="#future-ideas">Future ideas</a> •
+	<a href="#contributing">Contributing</a> •
+	<a href="#license">License</a>
+</p>
+
 ## ABOUT
 
 This text editor (vim wannabe) was built in `C` in roughly **1200 lines of code**, needs no external libraries, and drives the terminal with standard **VT100** escape sequences. The guide I followed, along with ideas it does not implement, are listed below.
