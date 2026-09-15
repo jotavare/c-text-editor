@@ -44,7 +44,7 @@ This text editor (vim wannabe) was built in `C` in roughly **1200 lines of code*
 
 ## CONTRIBUTING
 
-If you find any issues or have suggestions for improvements, feel free to fork the repository and open an issue or submit a pull request.
+This repository is finished and not open to changes.
 
 ## LICENSE
 
