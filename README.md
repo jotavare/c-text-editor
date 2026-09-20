@@ -1,19 +1,3 @@
-<p align="center">
-	<img src="https://img.shields.io/badge/status-finished-success?color=%2312bab9&style=flat-square"/>
-	<img src="https://img.shields.io/github/languages/top/jotavare/c-text-editor?color=%2312bab9&style=flat-square"/>
-	<img src="https://img.shields.io/github/last-commit/jotavare/c-text-editor?color=%2312bab9&style=flat-square"/>
-	<a href='https://www.linkedin.com/in/jotavare' target="_blank"><img alt='Linkedin' src='https://img.shields.io/badge/LinkedIn-blue?style=flat-square'/></a>
-</p>
-
-<p align="center">
-	<a href="#about">About</a> •
-	<a href="#requirements">Requirements</a> •
-	<a href="#references">References</a> •
-	<a href="#future-ideas">Future ideas</a> •
-	<a href="#contributing">Contributing</a> •
-	<a href="#license">License</a>
-</p>
-
 ## ABOUT
 
 This text editor (vim wannabe) was built in `C` in roughly **1200 lines of code**, needs no external libraries, and drives the terminal with standard **VT100** escape sequences. The guide I followed, along with ideas it does not implement, are listed below.
@@ -57,13 +41,3 @@ This text editor (vim wannabe) was built in `C` in roughly **1200 lines of code*
 - [ ] Config file;
 - [ ] Modal editing;
 - [ ] Multiple buffers;
-
-## CONTRIBUTING
-
-This repository is finished and not open to changes.
-
-## LICENSE
-
-This project is a derivative work created from scratch, inspired by the [original guide](https://viewsourcecode.org/snaptoken/kilo/) authored by [snaptoken](https://github.com/snaptoken) and the [original project](https://github.com/antirez/kilo) developed by Salvatore Sanfilippo ([antirez](https://github.com/antirez)).
-
-It is licensed under the [BSD 2-Clause License](https://github.com/jotavare/c-text-editor/blob/main/LICENSE) by Salvatore Sanfilippo, included within this repository.
